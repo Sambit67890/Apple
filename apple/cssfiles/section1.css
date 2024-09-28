@@ -1,0 +1,77 @@
+
+	#banner1{
+        color:rgb(255, 255, 255);
+        
+    }
+    #banner1 div {
+        text-align: center;
+        
+    }
+    #banner1 div #head {
+        /* border: 2px solid red; */
+        padding-top: 4%;
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 550;
+        letter-spacing: -.005em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    #banner1 div ul li{
+        line-height: 1.14286;
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: .007em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top:6px;
+    }
+    #banner1 div ol{
+        
+        /* border :2px solid green; */
+        margin: auto;
+        display:flex;
+        justify-content: center;
+        padding:11px 21Px;
+        gap:15px;
+        
+        
+        
+    }
+    
+    #banner1 div ol li{
+        border:2px solid;
+        height: 44px;
+        width: 130PX;
+        border-radius: 30px;
+        padding-top: 10px;
+    }
+    #banner1 div ol li:first-child{
+        border:1px solid #0071e3;
+        font-size: 17px;
+        background-color: #0071e3;
+    }
+    #banner1 div ol li:last-child{
+        color:#0071e3;
+        font-size: 17px;
+        
+    }
+    #banner1 div ol li:last-child:hover{
+        background-color:#0071e3;
+        border: 1px solid #0071e3;
+        color:white;
+        font-size: 17px;
+        
+    } 
+
+
+#banner1{
+    /* border:2px solid red; */
+    height: 104vh;
+    width: 100%;
+    background-image:url("./hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+
+

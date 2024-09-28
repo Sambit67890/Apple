@@ -1,0 +1,145 @@
+#section4{
+
+    /* border:2px solid blue; */
+    height: 304vh;
+}
+
+#section4 div ol{
+    /* border:2px solid rgb(255, 14, 243); */
+    height: 100vh;
+    margin: 1.5vh 0vh 1.5vh 1.5vh;
+    display:flex;
+   }
+
+   #section4 div ol li{
+    /* border:2px solid rgb(51, 4, 163); */
+    height: 100vh;
+    margin-right: 1.5vh;
+    width: 50%;
+    list-style: none;
+        
+   }
+   #section4 div ol li h1{
+    /* border:2px solid rgb(8, 223, 98); */
+    margin-top: 50px;
+    font-size: 40px;
+    /* font-weight: 700; */
+    text-align: center;
+   }
+   #section4 div ol li p{
+    /* border:2px solid rgb(8, 223, 98); */
+    margin: 20px;
+    font-size: 23px;
+    text-align: center;
+   }
+   #section4 div ol li ul{
+    /* border:2px solid rgb(119, 5, 62); */
+    margin:30px;
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+   }
+
+   #section4>div>ol>li>ul>span{
+    /* border:2px solid rgb(41, 7, 190); */
+    border-radius: 30px;
+    height: inherit;
+    font-size: 20px;
+    padding:10px 20px;
+    gap: 30px;
+    text-align: center;
+    color:white;
+    background-color: rgb(11, 11, 223);
+   }
+   #section4>div>ol>li>ul>span+span{
+    border:2px solid rgb(11, 11, 223);
+    color:rgb(11, 11, 223);
+    padding:8px 20px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+   }
+   #section4>div>ol>li>ul>span+span:hover{
+    background-color:rgb(11, 11, 223);
+    color:white;
+   }
+   #section4>div>ol>li>ul>span:hover{
+    background-color:rgb(27, 27, 233);
+   
+   }
+
+ 
+/* first section */
+
+   
+#first ol li{
+    background-image:url("./phone15.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+#first ol li+li{
+    background-image:url("./laptop.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+#second ol li{
+    color:white;
+    background-image:url("./promo_ipadpro__ch217v9v7no2_large.jpg");
+    
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+#second ol li+li{
+    color:white;
+    background-image:url("./promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg");
+    
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+#last ol li{
+    
+    background-image:url("./promo_ai__couihqxznyvm_large.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    color:black;
+
+}
+#last ol li+li{
+    
+    background-image:url("./promo_iphone_tradein__bugw15ka691e_large.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    color:black;
+
+}
+/* last your  */
+
+#last>ol>li>ul>span{
+    /* border:2px solid rgb(41, 7, 190); */
+    border-radius: 30px;
+    height: inherit;
+    font-size: 20px;
+    padding:10px 20px;
+    gap: 30px;
+    text-align: center;
+    color:white;
+    background-color: rgb(11, 11, 223);
+   }
+   #last>ol>li>ul>span+span{
+    border:2px solid rgb(11, 11, 223);
+    color:rgb(11, 11, 223);
+    padding:8px 20px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+   }
+   #last>ol>li>ul>span+span:hover{
+    background-color:rgb(11, 11, 223);
+    color:white;
+   }
+   #last>ol>li>ul>span:hover{
+    background-color:rgb(27, 27, 233);
+   
+   }

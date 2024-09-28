@@ -1,0 +1,41 @@
+#footer{
+    
+    /* border:2px solid red; */
+    height: 120vh;
+    width:100%;
+    background-color: rgb(236, 237, 238);
+}
+#footer>section{
+   
+    /* border:2px solid blueviolet; */
+    height:inherit;
+    width: 70%;
+    margin:auto;
+
+}
+
+#footer>section>div{
+    /* border:2px solid rgb(6, 233, 74); */
+    
+    
+}
+#footer>section>div>p{
+   
+    
+    font-size: 15px;
+}
+#footer>section>table tr td{
+    text-align: left;
+    font-size: 15px;
+    width:50vh;
+}
+#footer>section>table tr th{
+    text-align: left;
+    font-size: 15px;
+    width:50vh;
+}
+#footer>section>table tr td:hover{
+    /* background-color: blueviolet; */
+    text-decoration-line: underline;
+
+}
